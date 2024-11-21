@@ -1,0 +1,253 @@
+/* style.css */
+body {
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+   background-color: #f5f5f5;
+   color: #333;
+}
+
+header {
+   background: linear-gradient(45deg, #049e42, #66b3ff);
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+}
+
+header .logo img {
+   width: 100px;
+   padding-left: 35px;
+}
+.logo {
+   display: flex;
+  flex-direction: row;
+  justify-items:center;
+}
+
+header nav ul {
+   list-style: none;
+   display: flex;
+   gap: 15px;
+   margin: 0;
+   padding: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: oblique;
+}
+
+header nav ul li a {
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   transition: color 0.3s;
+   padding-right: 20px;
+   font-size: large;
+}
+
+header nav ul li a:hover {
+   color: #ffcc00;
+}
+
+.hero {
+   background: url('hero.jpg') no-repeat center center/cover;
+   color: white;
+   text-align: center;
+   padding: 265px 20px;
+}
+
+.hero-content h1 {
+   font-size: 3rem;
+   margin-bottom: 20px;
+   color: #049e42;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: oblique;
+}
+
+.hero-content p {
+   font-size: 1.2rem;
+   color: #000;
+   margin-bottom: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: 500;
+   font-style: oblique;
+
+}
+
+.content-section {
+   padding: 40px 20px;
+   text-align: center;
+}
+
+.content-section h2 {
+   color: #daf60b;
+   margin-bottom: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+}
+
+.grid {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+   justify-content: center;
+}
+
+.grid div {
+   background: white;
+   border-radius: 30px;
+   box-shadow: 0 2px 5px rgb(13, 210, 249);
+   background: rgb(132, 217, 117);
+   padding: 15px;
+   width: 200px;
+   text-align: center;
+   transition: transform 0.3s;
+}
+
+.grid div:hover {
+   transform: scale(1.05);
+   color:  rgb(231, 71, 7);
+}
+.gallery-grid{
+   transition: transform 0.5s;
+}
+.gallery-grid :hover{
+   transform: scale(1.05);
+}
+.gallery-grid
+img {
+   width: 400px;
+   height: 200px;
+   border-radius: 8px;
+   margin-right: 30px;
+   margin-top: 10px;
+   box-shadow: rgb(6, 164, 222) 10px 10px 20px;
+
+}
+#gallery {
+   background-image: url(./bg2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.galleryText {
+   background-color: #087ef5;
+   text-align: center;
+   z-index: 999;
+   text-decoration: rgb(0, 255, 102);
+   width: 600px;
+   height: 40px;
+   margin: auto;
+   border-radius: 20px;
+}
+   
+#students {
+   background-image: url(./bg1.jpg);
+   height: 100vh;
+}
+
+#subjects {
+   background-image: url(./bg4.jpg);
+}
+/* Footer umumiy dizayni */
+.footer {
+   background-color: #2c3e50;
+   color: #fff;
+   padding: 30px 20px;
+   text-align: center;
+ }
+ 
+ .footer .container {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 20px;
+ }
+ 
+ .footer h3 {
+   color: #f1c40f;
+   margin-bottom: 15px;
+ }
+ 
+ .footer a {
+   color: #f1c40f;
+   text-decoration: none;
+ }
+ 
+ .footer a:hover {
+   text-decoration: underline;
+ }
+ 
+ /* Aloqa ma'lumotlari */
+ .contact-info p {
+   margin: 5px 0;
+ }
+ 
+ .social-links {
+   margin-top: 10px;
+ }
+ 
+ .social-icon {
+   display: inline-block;
+   margin: 0 5px;
+   padding: 5px 10px;
+   background-color: #34495e;
+   color: #fff;
+   border-radius: 5px;
+ }
+ 
+ .social-icon:hover {
+   background-color: #f1c40f;
+   color: #2c3e50;
+ }
+ 
+ /* So'rov shakli */
+ .contact-form form {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-right: 200px;
+ }
+
+ .contact-form h3 {
+   padding-right: 180px;
+ }
+
+ #contactForm button {
+   margin-left: 20px;
+ }
+ 
+ .contact-form input,
+ .contact-form textarea {
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   outline: none;
+   width: 100%;
+ }
+ 
+ .contact-form textarea {
+   resize: none;
+   height: 80px;
+ }
+ 
+ .contact-form button {
+   background-color: #f1c40f;
+   color: #2c3e50;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-weight: bold;
+ }
+ 
+ .contact-form button:hover {
+   background-color: #d4ac0d;
+ }
+ 
+ /* Footer pastki qismi */
+ .footer-bottom {
+   margin-top: 20px;
+   border-top: 1px solid #34495e;
+   padding-top: 10px;
+   font-size: 14px;
+ }
+ 
